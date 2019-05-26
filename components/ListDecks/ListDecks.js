@@ -1,0 +1,107 @@
+import React from 'react';
+import {FlatList, TouchableOpacity, View, ScrollView} from 'react-native';
+import {Button, ListItem} from 'react-native-elements';
+import {connect} from 'react-redux';
+import {AppLoading} from 'expo';
+import {handleInitialData} from "../../redux/actions/shared";
+
+import styles from './styles';
+
+class ListDecks extends React.Component {
+
+    static navigationOptions = ({navigation}) => {
+        return {
+            headerTitle: "List Decks"
+        }
+    };
+
+    showDeck = item => {
+
+        this.props.navigation.navigate('ShowDeck', item);
+    };
+
+    keyExtractor = (item, index) => index.toString();
+
+    componentDidMount() {
+
+        this.props.fetchInitialData();
+    }
+
+    // render deck item
+    renderDeckItem = ({item}) => {
+        return (
+            <TouchableOpacity
+                activeOpacity={1}
+                onPress={() => this.showDeck(item)}
+            >
+                <ListItem
+                    containerStyle={styles.itemContainer}
+                    title={item.title}
+                    subtitle={item.title}
+                    badge={{
+                        value: item.questions.length,
+                        textStyle: styles.countStyles,
+                        badgeStyle: styles.countStylesContainer,
+                    }}
+                    rightAvatar={{
+                        source: require('../../assets/logo_mini.png'),
+                        overlayContainerStyle: styles.avatarStyle,
+                        rounded: false
+                    }}
+                />
+            </TouchableOpacity>
+        )
+    };
+
+    render() {
+
+        const {decks} = this.props;
+
+        if (!decks) {
+            return <AppLoading/>
+        }
+
+        return (
+            <View style={{flex: 1}}>
+                <View style={{flex: 0.87}}>
+                    <ScrollView>
+                        {decks.length > 0 && (
+                            <FlatList
+                                data={decks}
+                                renderItem={this.renderDeckItem}
+                                keyExtractor={this.keyExtractor}
+                            />
+                        )}
+                    </ScrollView>
+                </View>
+                <View style={{flex: 0.13}}>
+                    <View style={[styles.buttonContainer]}>
+                        <Button
+                            borderRadius={25}
+                            onPress={() => this.props.navigation.navigate('AddDeck')}
+                            buttonStyle={styles.buttonStyle}
+                            title="ADD DECK"
+                            accessibilityLabel="ADD DECK"
+                        />
+                    </View>
+                </View>
+            </View>
+        );
+    }
+}
+
+const mapStateToProps = ({decks}) => {
+    return {
+        decks: Object.values(decks)
+    }
+};
+
+const mapDispatchToProps = dispatch => {
+    return {
+        fetchInitialData: () => {
+            dispatch(handleInitialData());
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ListDecks);
