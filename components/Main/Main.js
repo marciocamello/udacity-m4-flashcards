@@ -1,9 +1,8 @@
 import React from 'react';
-import {AsyncStorage, Image, View} from 'react-native';
+import {Image, View} from 'react-native';
 import {Button} from 'react-native-elements';
 
 import styles from './styles';
-import {STORAGE_KEY} from "../../api/_DATA";
 
 export default class Main extends React.Component {
 

@@ -6,7 +6,7 @@ export default styles = StyleSheet.create({
         alignItems: 'center',
         flexGrow: 1,
         width: '100%',
-        justifyContent: 'center',
+        justifyContent: 'center'
     },
     logo: {
         width: 200,

@@ -1,7 +1,6 @@
 import React from 'react';
-import { createStackNavigator, createAppContainer, createDrawerNavigator } from 'react-navigation';
-
-import BottomTabs from './BottomTabs';
+import { fromLeft, zoomIn, zoomOut } from 'react-navigation-transitions';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 import Main from './components/Main/Main';
 import ListDecks from './components/ListDecks/ListDecks';
@@ -10,12 +9,6 @@ import ScoreQuiz from './components/ScoreQuiz/ScoreQuiz';
 import ShowQuiz from './components/ShowQuiz/ShowQuiz';
 import AddCard from './components/AddCard/AddCard';
 import AddDeck from './components/AddDeck/AddDeck';
-
-const HamburgerNavigation  = createDrawerNavigator(
-    {
-        Tabs: BottomTabs
-    }
-);
 
 const navigationOptions = {
     headerStyle: {
@@ -30,14 +23,22 @@ const navigationOptions = {
     }
 };
 
+const handleCustomTransition = ({ scenes }) => {
+    const prevScene = scenes[scenes.length - 2];
+    const nextScene = scenes[scenes.length - 1];
+
+    // Custom transitions go there
+    if (prevScene
+        && prevScene.route.routeName === 'ShowQuiz'
+        && nextScene.route.routeName === 'ShowDeck') {
+        return zoomIn();
+    }
+    return fromLeft();
+};
+
 const AppNavigator = createStackNavigator(
     {
-        Drawer: {
-            screen: HamburgerNavigation,
-            navigationOptions: {
-                header: null,
-            },
-        },
+        Main: Main,
         ListDecks: {
             screen: ListDecks,
             navigationOptions: navigationOptions
@@ -61,11 +62,12 @@ const AppNavigator = createStackNavigator(
         AddDeck: {
             screen: AddDeck,
             navigationOptions: navigationOptions
-        },
-        DefaultScreen: {
-            screen: Main
         }
-    }
+    },
+    {
+        initialRouteName: 'Main',
+        transitionConfig: (nav) => handleCustomTransition(nav)
+    },
  );
 
  let AppContainer = createAppContainer(AppNavigator);

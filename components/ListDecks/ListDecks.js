@@ -4,6 +4,7 @@ import {Button, ListItem} from 'react-native-elements';
 import {connect} from 'react-redux';
 import {AppLoading} from 'expo';
 import {handleInitialData} from "../../redux/actions/shared";
+import Footer from '../Footer/Footer';
 
 import styles from './styles';
 
@@ -63,7 +64,7 @@ class ListDecks extends React.Component {
 
         return (
             <View style={{flex: 1}}>
-                <View style={{flex: 0.87}}>
+                <View style={{flex: 0.9}}>
                     <ScrollView>
                         {decks.length > 0 && (
                             <FlatList
@@ -74,16 +75,8 @@ class ListDecks extends React.Component {
                         )}
                     </ScrollView>
                 </View>
-                <View style={{flex: 0.13}}>
-                    <View style={[styles.buttonContainer]}>
-                        <Button
-                            borderRadius={25}
-                            onPress={() => this.props.navigation.navigate('AddDeck')}
-                            buttonStyle={styles.buttonStyle}
-                            title="ADD DECK"
-                            accessibilityLabel="ADD DECK"
-                        />
-                    </View>
+                <View style={{flex: 0.1}}>
+                    <Footer navigation={this.props.navigation}/>
                 </View>
             </View>
         );

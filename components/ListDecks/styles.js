@@ -17,13 +17,12 @@ export default styles = StyleSheet.create({
         backgroundColor: 'transparent'
     },
     buttonContainer: {
-        width: "90%",
-        margin: 20,
+        width: "100%"
     },
     buttonStyle: {
-        borderRadius: 8,
-        backgroundColor: '#FF6600',
-        marginBottom: 10
+        borderRadius: 0,
+        height: 50,
+        backgroundColor: '#FF6600'
     },
     countStyles: {
         color: '#293333',

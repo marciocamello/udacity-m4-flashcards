@@ -51,8 +51,8 @@ class ShowDeck extends React.Component {
                                 borderRadius={25}
                                 onPress={() => this.props.navigation.push('ShowQuiz', deck)}
                                 buttonStyle={styles.buttonStyleStartQuiz}
-                                title="START"
-                                accessibilityLabel="QUIZ"
+                                title="START QUIZ"
+                                accessibilityLabel="START QUIZ"
                             />
                         </View>
                     </View>

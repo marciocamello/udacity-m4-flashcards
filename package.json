@@ -14,11 +14,12 @@
     "react-native-awesome-alerts": "^1.2.0",
     "react-native-card-flip": "^1.0.4",
     "react-native-card-stack-swiper": "^1.1.0",
+    "react-native-elements": "^1.1.0",
     "react-native-paper": "^2.15.2",
     "react-native-view-overflow": "^0.0.4",
     "react-navigation": "^3.9.1",
+    "react-navigation-transitions": "^1.0.10",
     "react-redux": "^6.0.1",
-    "react-native-elements": "^1.1.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
