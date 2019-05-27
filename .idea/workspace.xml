@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5e3229-f50c-4575-becd-b4a5c8a79f94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Footer/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ShowAnswer/ShowAnswer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-reads/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-reads/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-reads/README.md" afterDir="false" />
@@ -21,15 +20,7 @@
       <change afterPath="$PROJECT_DIR$/../udacity-m3-react-native/UdacityFitness/utils/colors.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udacity-m3-react-native/UdacityFitness/utils/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BottomTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/BottomTabs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Navigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ListDecks/ListDecks.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ListDecks/ListDecks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ListDecks/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ListDecks/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ShowDeck/ShowDeck.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ShowDeck/ShowDeck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../desafios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../desafios.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../videogame/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../videogame/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../videogame/src/components/UserCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../videogame/src/components/UserCreate.js" afterDir="false" />
@@ -56,27 +47,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="113" />
+          <entry key="js" value="114" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="113" />
+          <entry key="JavaScript" value="114" />
           <entry key="Markdown" value="1" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="3133" />
+          <entry key="js" value="3155" />
           <entry key="md" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="3133" />
+          <entry key="JavaScript" value="3155" />
           <entry key="Markdown" value="326" />
         </counts>
       </usages-collector>
@@ -92,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Navigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -145,6 +136,7 @@
         <option value="$PROJECT_DIR$/components/ListDecks/ListDecks.js" />
         <option value="$PROJECT_DIR$/components/Footer/styles.js" />
         <option value="$PROJECT_DIR$/components/Footer/Footer.js" />
+        <option value="$PROJECT_DIR$/components/ShowAnswer/ShowQuiz.js" />
         <option value="$PROJECT_DIR$/Navigator.js" />
       </list>
     </option>
@@ -200,19 +192,7 @@
               <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ListDecks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="ShowAnswer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
@@ -268,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558891450805</updated>
-      <workItem from="1558891489605" duration="24470000" />
+      <workItem from="1558891489605" duration="24807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24470000" />
+    <option name="totallyTimeSpent" value="24807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="12" width="1387" height="782" extended-state="0" />
@@ -545,10 +525,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/ShowAnswer/ShowAnswer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Navigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
