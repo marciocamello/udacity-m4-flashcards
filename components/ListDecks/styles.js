@@ -7,8 +7,10 @@ export default styles = StyleSheet.create({
         width: '100%'
     },
     itemContainer: {
-        borderBottomWidth: 1,
-        borderBottomColor: '#293333'
+        borderWidth: 1,
+        borderColor: '#293333',
+        borderRadius: 8,
+        margin: 5
     },
     countStylesContainer: {
         backgroundColor: 'transparent'

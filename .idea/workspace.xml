@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5e3229-f50c-4575-becd-b4a5c8a79f94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/ShowAnswer/ShowAnswer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-reads/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-reads/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-reads/README.md" afterDir="false" />
@@ -20,7 +19,12 @@
       <change afterPath="$PROJECT_DIR$/../udacity-m3-react-native/UdacityFitness/utils/colors.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udacity-m3-react-native/UdacityFitness/utils/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Navigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo_deck.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logo_deck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logo_mini.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ListDecks/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ListDecks/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../desafios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../desafios.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../videogame/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../videogame/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../videogame/src/components/UserCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../videogame/src/components/UserCreate.js" afterDir="false" />
@@ -47,27 +51,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="114" />
+          <entry key="js" value="116" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="114" />
+          <entry key="JavaScript" value="116" />
           <entry key="Markdown" value="1" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="3155" />
+          <entry key="js" value="3167" />
           <entry key="md" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="3155" />
+          <entry key="JavaScript" value="3167" />
           <entry key="Markdown" value="326" />
         </counts>
       </usages-collector>
@@ -79,20 +83,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Navigator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,7 +119,6 @@
         <option value="$PROJECT_DIR$/components/AddDeck/AddDeck.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/components/ShowDeck/ShowDeck.js" />
-        <option value="$PROJECT_DIR$/components/ListDecks/styles.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/BottomTabs.js" />
         <option value="$PROJECT_DIR$/components/Main/styles.js" />
@@ -138,6 +128,7 @@
         <option value="$PROJECT_DIR$/components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/components/ShowAnswer/ShowQuiz.js" />
         <option value="$PROJECT_DIR$/Navigator.js" />
+        <option value="$PROJECT_DIR$/components/ListDecks/styles.js" />
       </list>
     </option>
   </component>
@@ -158,9 +149,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
+    <option name="x" value="-2" />
     <option name="y" value="12" />
-    <option name="width" value="1387" />
+    <option name="width" value="1385" />
     <option name="height" value="782" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -177,27 +168,6 @@
             <path>
               <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ShowAnswer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,20 +218,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558891450805</updated>
-      <workItem from="1558891489605" duration="24807000" />
+      <workItem from="1558891489605" duration="25946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24807000" />
+    <option name="totallyTimeSpent" value="25946000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="12" width="1387" height="782" extended-state="0" />
-    <editor active="true" />
+    <frame x="-2" y="12" width="1385" height="782" extended-state="0" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33061528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33110616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -448,16 +417,6 @@
     <entry file="file://$PROJECT_DIR$/components/Footer/Footer.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ListDecks/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -469,16 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ListDecks/ListDecks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -534,8 +483,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Navigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="294">
+          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ListDecks/ListDecks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ListDecks/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
