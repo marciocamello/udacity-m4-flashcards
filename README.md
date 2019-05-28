@@ -18,6 +18,10 @@ At the end of QUIZ you will see the result with the percentage of your hits.
 * View your result after finish QUIZ
 * Show a correct answer
 
+## Expo application
+
+[https://expo.io/@marciocamello/FlashCards](https://expo.io/@marciocamello/FlashCards)
+
 ## Developer
 
 ### Structure

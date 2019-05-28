@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Project using ReactNative from nanodegree on Udacity",
+    "name": "Flash Cards 0.1.0",
     "slug": "FlashCards",
     "privacy": "public",
     "sdkVersion": "32.0.0",
@@ -25,6 +25,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "FlashCards is an application where you can register your decks and add letters with question and answer, \nwhere the user can start QUIZ and try to hit the correct alterantiva. \nYou can create as many decks as you like and add as many cards to the deck as you need. \nAt the end of QUIZ you will see the result with the percentage of your hits.",
+    "githubUrl": "https://github.com/marciocamello/udacity-m4-flashcards"
   }
 }
