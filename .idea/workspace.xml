@@ -18,8 +18,6 @@
       <change afterPath="$PROJECT_DIR$/../udacity-m3-react-native/UdacityFitness/utils/_calendar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udacity-m3-react-native/UdacityFitness/utils/colors.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udacity-m3-react-native/UdacityFitness/utils/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../desafios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../desafios.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../videogame/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../videogame/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../videogame/src/components/UserCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../videogame/src/components/UserCreate.js" afterDir="false" />
@@ -47,27 +45,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="188" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JavaScript" value="188" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="4396" />
-          <entry key="md" value="355" />
+          <entry key="md" value="362" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="4396" />
-          <entry key="Markdown" value="355" />
+          <entry key="Markdown" value="362" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -79,47 +77,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/ShowQuiz/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-288">
-                <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-410">
+                <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/ShowQuiz/ShowQuiz.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="109" column="49" selection-start-line="109" selection-start-column="49" selection-end-line="109" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/ShowDeck/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -217,63 +182,6 @@
               <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="About" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AddCard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AddDeck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ListDecks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ScoreQuiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ShowDeck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ShowQuiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlashCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlashCards" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -323,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558891450805</updated>
-      <workItem from="1558891489605" duration="36261000" />
+      <workItem from="1558891489605" duration="36460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36261000" />
+    <option name="totallyTimeSpent" value="36460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="12" width="1319" height="1015" extended-state="0" />
@@ -625,10 +533,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ShowDeck/styles.js">
+    <entry file="file://$PROJECT_DIR$/components/ShowQuiz/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,21 +553,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ShowQuiz/styles.js">
+    <entry file="file://$PROJECT_DIR$/components/ShowDeck/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-288">
-            <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-410">
+            <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
