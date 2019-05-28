@@ -6,6 +6,15 @@ export default styles = StyleSheet.create({
         alignItems: 'flex-start',
         width: '100%'
     },
+    gridMain: {
+        flex: 1,
+    },
+    gridTop: {
+        flex: 0.9,
+    },
+    gridBottom: {
+        flex: 0.1,
+    },
     itemContainer: {
         borderWidth: 1,
         borderColor: '#293333',

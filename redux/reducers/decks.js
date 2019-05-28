@@ -5,22 +5,22 @@ export default function decks(state = {}, action) {
         case DECKS:
             return {
                 ...state,
-                ...action.decks
+                ...action.payload
             };
         case ADD_DECK:
             return {
                 ...state,
-                ...action.decks
+                ...action.payload
             };
         case GET_DECK:
             return {
                 ...state,
-                ...action.deck
+                ...action.payload
             };
         case ADD_CARD:
             return {
                 ...state,
-                ...action.decks
+                ...action.payload
             };
         default:
             return state;

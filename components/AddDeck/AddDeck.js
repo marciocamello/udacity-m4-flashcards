@@ -51,8 +51,8 @@ class AddDeck extends React.Component {
 
     render() {
         return (
-            <View style={{flex: 1}}>
-                <View style={{flex: 0.9}}>
+            <View style={styles.gridMain}>
+                <View style={styles.gridTop}>
                     <ScrollView>
                         <View style={[styles.container]}>
                             <Text>Deck Name</Text>
@@ -75,7 +75,7 @@ class AddDeck extends React.Component {
                         </View>
                     </ScrollView>
                 </View>
-                <View style={{flex: 0.1}}>
+                <View style={styles.gridBottom}>
                     <Footer navigation={this.props.navigation}/>
                 </View>
             </View>

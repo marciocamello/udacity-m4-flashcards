@@ -1,4 +1,5 @@
 import {AsyncStorage} from 'react-native';
+
 import {initialData, STORAGE_KEY} from './_DATA';
 
 /**

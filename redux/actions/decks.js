@@ -15,7 +15,7 @@ export const fetchInitialData = () => {
 export const fetchDecks = (decks) => {
     return {
         type: DECKS,
-        decks
+        payload: decks
     };
 };
 
@@ -40,7 +40,7 @@ export const saveCard = (deck, card) => {
 export const addCard = (decks) => {
     return {
         type: ADD_CARD,
-        decks,
+        payload: decks
     }
 };
 
@@ -51,10 +51,10 @@ export const getDeck = (deckId) => {
     }
 };
 
-export const showDeck = (deck) => {
+export const showDeck = deck => {
     return {
         type: GET_DECK,
-        deck
+        payload: deck
     }
 };
 
@@ -76,9 +76,9 @@ export const saveDeck = (deck) => {
     }
 };
 
-export const addDeck = (decks) => {
+export const addDeck = decks => {
     return {
         type: ADD_DECK,
-        decks
+        payload: decks
     }
 };

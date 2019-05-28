@@ -16,7 +16,7 @@ class ScoreQuiz extends React.Component {
     render() {
 
         const { deck, score } = this.props.navigation.state.params;
-        const total = (100 * score / deck.questions.length);
+        const total = (100 * score / deck.questions.length).toFixed(2);
 
         return (
             <View style={styles.container}>

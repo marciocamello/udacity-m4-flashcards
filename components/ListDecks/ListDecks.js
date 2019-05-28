@@ -63,8 +63,8 @@ class ListDecks extends React.Component {
         }
 
         return (
-            <View style={{flex: 1}}>
-                <View style={{flex: 0.9}}>
+            <View style={styles.gridMain}>
+                <View style={styles.gridTop}>
                     <ScrollView>
                         {decks.length > 0 && (
                             <FlatList
@@ -75,7 +75,7 @@ class ListDecks extends React.Component {
                         )}
                     </ScrollView>
                 </View>
-                <View style={{flex: 0.1}}>
+                <View style={styles.gridBottom}>
                     <Footer navigation={this.props.navigation} route='AddDeck'/>
                 </View>
             </View>

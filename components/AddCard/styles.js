@@ -7,6 +7,15 @@ export default styles = StyleSheet.create({
         width: "90%",
         margin: 20
     },
+    gridMain: {
+        flex: 1,
+    },
+    gridTop: {
+        flex: 0.9,
+    },
+    gridBottom: {
+        flex: 0.1,
+    },
     buttonContainer: {
         width: "90%",
         margin: 20

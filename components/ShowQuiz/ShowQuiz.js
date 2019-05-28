@@ -2,10 +2,11 @@ import React from 'react';
 import {Animated, Text, View} from 'react-native';
 import {HeaderBackButton} from "react-navigation";
 import {Button} from 'react-native-elements';
+import { setNotification, clearNotification } from '../../notifications';
 
 import styles from './styles';
 
-class ShowQuiz extends React.Component {
+class ShowQuiz extends React.PureComponent {
 
     static navigationOptions = ({navigation}) => {
         return {
@@ -35,6 +36,11 @@ class ShowQuiz extends React.Component {
         this.animatedValue.addListener(({value}) => {
             this.value = value;
         });
+    }
+
+    componentDidMount(){
+        clearNotification()
+            .then(setNotification)
     }
 
     getCards() {
