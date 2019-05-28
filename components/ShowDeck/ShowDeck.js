@@ -2,9 +2,9 @@ import React from 'react';
 import {Image, Text, View} from 'react-native';
 import {Button} from 'react-native-elements';
 import {HeaderBackButton} from 'react-navigation';
+import {connect} from 'react-redux';
 
 import styles from './styles';
-import {connect} from 'react-redux';
 
 class ShowDeck extends React.Component {
 
@@ -30,7 +30,7 @@ class ShowDeck extends React.Component {
         return (
             <View style={styles.container}>
                 {deck && (
-                    <View style={styles.container}>
+                    <View style={styles.card}>
                         <Text style={styles.titleStyles}>
                             {deck.title}
                         </Text>

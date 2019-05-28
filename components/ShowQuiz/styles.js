@@ -21,12 +21,20 @@ export default styles = StyleSheet.create({
     titleStyles: {
         color: '#293333',
         fontSize: 30,
+        padding: 10,
         fontWeight: 'bold',
         textAlign: 'center'
     },
-    countStyles: {
+    currentQuestion: {
         color: '#293333',
-        fontSize: 60,
+        fontSize: 15,
+        fontWeight: 'bold',
+        textAlign: 'center'
+    },
+    showAnswer: {
+        color: '#FF6600',
+        padding: 20,
+        fontSize: 25,
         fontWeight: 'bold',
         textAlign: 'center'
     },

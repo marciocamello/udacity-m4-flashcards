@@ -7,6 +7,9 @@ import styles from './styles';
 export default class Footer extends React.Component {
 
     render() {
+
+        const route = this.props.route;
+
         return (
             <View style={styles.container}>
                 <TouchableOpacity
@@ -22,7 +25,7 @@ export default class Footer extends React.Component {
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={styles.decks}
-                    onPress={() => this.props.navigation.navigate('AddDeck')}
+                    onPress={() => this.props.navigation.navigate(route)}
                     activeOpacity={.5}
                 >
                     <Icon

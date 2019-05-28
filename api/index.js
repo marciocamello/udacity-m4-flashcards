@@ -9,6 +9,8 @@ class ReadableAPI {
     getInitialData = async () => {
         try {
 
+            //await AsyncStorage.clear(STORAGE_KEY);
+
             const decks = await this.getDecks();
 
             if (!decks) {

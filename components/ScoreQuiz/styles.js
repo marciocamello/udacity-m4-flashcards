@@ -20,12 +20,12 @@ export default styles = StyleSheet.create({
     },
     titleStyles: {
         color: '#293333',
-        fontSize: 30,
+        fontSize: 25,
         fontWeight: 'bold',
         textAlign: 'center'
     },
-    countStyles: {
-        color: '#293333',
+    scoreTotal: {
+        color: '#FF6600',
         fontSize: 60,
         fontWeight: 'bold',
         textAlign: 'center'

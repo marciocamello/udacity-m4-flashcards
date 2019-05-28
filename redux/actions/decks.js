@@ -1,7 +1,6 @@
 import {ADD_CARD, ADD_DECK, DECKS, GET_DECK} from "./types";
 
 import API from '../../api';
-import {Text, View} from "react-native";
 import React from "react";
 
 export const fetchInitialData = () => {

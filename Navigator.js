@@ -25,7 +25,7 @@ const navigationOptions = {
 };
 
 const handleCustomTransition = ({ scenes }) => {
-    const prevScene = scenes[scenes.length - 2];
+    /*const prevScene = scenes[scenes.length - 2];
     const nextScene = scenes[scenes.length - 1];
 
     // Custom transitions go there
@@ -33,7 +33,7 @@ const handleCustomTransition = ({ scenes }) => {
         && (nextScene.route.routeName === 'ShowQuiz'
         || nextScene.route.routeName === 'ShowAnswer')) {
         return flipY();
-    }
+    }*/
     return fromLeft();
 };
 

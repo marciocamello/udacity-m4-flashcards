@@ -76,7 +76,7 @@ class ListDecks extends React.Component {
                     </ScrollView>
                 </View>
                 <View style={{flex: 0.1}}>
-                    <Footer navigation={this.props.navigation}/>
+                    <Footer navigation={this.props.navigation} route='AddDeck'/>
                 </View>
             </View>
         );
